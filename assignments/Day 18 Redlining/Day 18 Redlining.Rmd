@@ -27,9 +27,9 @@ Using computer programming I was able to do a more consistent data generation an
 
 Because there have not been enough houses for sale in New Haven to give a reasonable sample of all the regions, I have included homes from Baltimore where similar data is available. 
 
-![HOLC Map of New Haven](holc-newhaven.jpeg)
+![HOLC Map of New Haven](../../img/holc-newhaven.jpeg)
 
-![HOLC Map of Baltimore](holc-baltimore.jpeg)
+![HOLC Map of Baltimore](../../img/holc-baltimore.jpeg)
 
 ### Goals
 
@@ -41,7 +41,7 @@ The question we are trying to answer is what effect can we see on home values to
 
 ### First Pass on the data
 
-The data is a list of homes for sale in the New Haven and Baltimore regions at the end of February 2021. Homes that were not in one of the HOLC maps from New Haven or Baltimore have been excluded from the dataset. The dataset is named ```Combined.csv```. Load the data and get a sense of the variables that it contains.
+The data is a list of homes for sale in the New Haven and Baltimore regions at the end of February 2021. Homes that were not in one of the HOLC maps from New Haven or Baltimore have been excluded from the dataset. The dataset is named ```../../data/Combined.csv```. Load the data and get a sense of the variables that it contains.
 
 Load the data:
 

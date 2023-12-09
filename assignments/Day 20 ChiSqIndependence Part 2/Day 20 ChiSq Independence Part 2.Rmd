@@ -17,7 +17,7 @@ knitr::opts_chunk$set(echo = TRUE, error=TRUE, fig.width=5.3, fig.height=5 )
 Let's take a look at some of the data that we have looked at in the previous lesson. 
 
 ```{r}
-pol <- read.csv("POL2013rev4.csv", stringsAsFactors = TRUE)
+pol <- read.csv("../../data/POL2013rev4.csv", stringsAsFactors = TRUE)
 
 table.race.dayboarding <-table(pol$Race, pol$DayBoarding)
 table.race.dayboarding
@@ -173,11 +173,11 @@ We needed to tell the cuts for the shading here because the number of categories
 
 You will be looking at an example data set on financial behaviors and financial literacy from The National Financial Capability Study. The study is performed by the FINRA Investor Education Foundation. The survey was administered in 2009, 2012, and 2015. The 2015 study includes responses by more than 27,000 individuals from every demographic group across the United States.
 
-The data set ```financialdifficulty.csv``` below includes a subset of the variables and observations from the full study. This subset includes 98 financial and demographic variables on 250 randomly selected individuals across the country.
+The data set ```../../data/financialdifficulty.csv``` below includes a subset of the variables and observations from the full study. This subset includes 98 financial and demographic variables on 250 randomly selected individuals across the country.
 
 The code below downloads the data and opens it, creating a data frame object, df.
 ```{r}
-fdiff <- read.csv("financialdifficulty.csv", stringsAsFactors = TRUE)
+fdiff <- read.csv("../../data/financialdifficulty.csv", stringsAsFactors = TRUE)
 
 head(fdiff)
 ```

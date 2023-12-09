@@ -30,7 +30,7 @@ To investigate the way that various categorical data might or might not be relat
 
 
 ```{r}
-pol <- read.csv("POL2013rev3.csv")
+pol <- read.csv("../../data/POL2013rev3.csv")
 head(pol)
 
 table.dayboarding.race <- table(pol$DayBoarding, pol$Race)

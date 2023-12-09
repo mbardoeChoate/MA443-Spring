@@ -37,7 +37,7 @@ Let's load the data and look at the information:
 
 ```{r}
 
-pol <- read.csv("POLFINALRevise2019V2.csv")
+pol <- read.csv("../../data/POLFINALRevise2019V2.csv")
 dim(pol)
 head( pol[ ,c("DassTotal","GRADENOPG")] )
 ```
@@ -142,7 +142,7 @@ This complex table tells us about all the comparisons from different grades. The
 
 ### Your Turn
 
-The dataset ```chocolate.csv``` has data about different chocolate bars. In this dataset there three different kinds of chocolate beans used in the production of the chocolate bars tested: Trinitario, Criollo, and Forastero. Each chocolate bar is also given a rating. We are interested if the mean rating of the chocolate bar depends on the type of bean used.
+The dataset ```../../data/chocolate.csv``` has data about different chocolate bars. In this dataset there three different kinds of chocolate beans used in the production of the chocolate bars tested: Trinitario, Criollo, and Forastero. Each chocolate bar is also given a rating. We are interested if the mean rating of the chocolate bar depends on the type of bean used.
 
 1. Make a boxplot investigating the ratings to the type of bean.
 
