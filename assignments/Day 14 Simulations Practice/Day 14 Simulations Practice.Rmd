@@ -10,7 +10,8 @@ knitr::opts_chunk$set(echo = TRUE, error=TRUE)
 ```
 
 
-![Trouble](trouble_board.jpg)
+![Trouble](../../img/trouble_board.jpg)
+
 *1. Trouble*
 You are playing a game of Trouble and need only a roll of 1 to win the game but your opponents are hard at work trying to stop you. 
 

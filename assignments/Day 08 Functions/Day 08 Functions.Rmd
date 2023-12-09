@@ -27,7 +27,7 @@ $$ f(x)=\sqrt{x} $$
 
 But back when you were in elementary school you may have seen this type of function:
 
-![Functions](functions.png)
+![Functions](../../img/functions.png)
 
 They all do the same thing which is take an input and produce a unique output.
 
